@@ -7,7 +7,7 @@ const score = document.querySelector("#score");
 let result = 0;
 let hitPosition;
 let timerId = null;
-let currentTime = 10;
+let currentTime = 60;
 
 function randomSquare() {
     squares.forEach(square => {
